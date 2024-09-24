@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box                                                                                                                                                                                                                                                                                                   ;
+}
+body{
+    font-family: "Josefin Sans", sans-serif ;
+}
+a{
+    color:#000;
+    text-decoration: none;
+    padding: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.container{ 
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 30px;
+    align-items: center;
+}
+.logo{
+    width:200px;
+  
+}
+ nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.hero{
+    background: url(../image/hero-section-bg.png);
+    :background-repeat: no-repeat center center cover;
+    justify-content: flex;
+    padding: 50px;
+    display: flex;
+}
+.hero content{
+    width: 50%;
+    line-height: 1.2;
+
+}
+.hero content h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 3px gray; 
+}
+.hero button{
+    margin-top: 50px;
+    display: flex;
+    gap:10px;
+}
+.btn primary{
+    flex: 1;
+    background-color: #496BF1 ;
+}
+.btn secondary{
+    flex: 2;
+    background-color: #2DD6C1;
+}
+.button{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 50px;
+    margin: auto;
+}
+.clinic{
+    display: flex;
+}
+.services container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.care{
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.doctors{
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+
+}
+.service{
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
